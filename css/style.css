@@ -1,5 +1,5 @@
 body{
-    background: url(../Imagenes/fondo.jpg); /*Para salir de carpetas es colocando dos puntos inicialmente ..*/
+    background: url(../Imagenes/fondos.jpg); /*Para salir de carpetas es colocando dos puntos inicialmente ..*/
     background-size: cover; /*Tamaño de la imagen que se coloca en todaq la pagina con cover cubre la imagen del equipo*/
     background-position: center; /*Posicion de la imagen y */
     color: white;
