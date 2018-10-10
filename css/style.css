@@ -1,0 +1,35 @@
+body{
+    background: url(../Imagenes/fondo.jpg); /*Para salir de carpetas es colocando dos puntos inicialmente ..*/
+    background-size: cover; /*Tamaño de la imagen que se coloca en todaq la pagina con cover cubre la imagen del equipo*/
+    background-position: center; /*Posicion de la imagen y */
+    color: white;
+    font-family: 'Lato', sans-serif; /* Carga las fuentes de izquierda a derecha*/
+}
+
+html{
+    height: 100%;  /*Para q la pagina se ajuste a la pantalla*/
+
+}
+
+.main{
+    text-align: center; /* Se coloca el main como un clase personalizada, dentro del div y aca es para centrar con text-align-center*/
+    padding-top: 25%; /*Esto sirve para centrar en la pagina la imagen*/
+    text-shadow: 0px 4px 3px red, 
+                 0px 8px 13px orange,
+                0px 10px 23px yellow;
+                /*Lo anterior sirve para difuminar colores y se vean varios decendentes*/
+               /* text-shadow: 0px 4px 3px rgba(0,0,0,4), 
+                 0px 8px 13px rgb(0,0,0,0.1),
+                0px 10px 23px rgba(0,0,0,0.1);*/
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0)
+}
